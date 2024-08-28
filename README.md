@@ -1,6 +1,8 @@
 Mysql{
 Create DB
 }
+
+
 Eclipse{
 Download Maven project - Start.Spring.io (Spring initializer)  include proglang, springversion, group,artifact,(names) , packaging - jar,  java 17. (Run(JAva Application))
 Rest API - Talend API Tester ( manipulate DB, check series)
