@@ -2,11 +2,25 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Student Details</title>
-    <link rel="stylesheet" type=text/css th:href="@{/ind.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/ind.css}">
 </head>
 <body>
-    <h1>Welcome to our web page</h1>
-    <p>This is the first web page.</p>
-</body>
+    <h1>Welcome to our page</h1>
+    <p>Enter student Details</p>
 
+    <!-- Text input fields -->
+    <form>
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id"><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="dob">DOB:</label>
+        <input type="text" id="dob" name="dob"><br>
+
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
 </html>
